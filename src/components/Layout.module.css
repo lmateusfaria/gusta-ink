@@ -1,0 +1,21 @@
+/* Estilos base para o layout responsivo */
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.header, .footer {
+  background: #222;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+.main {
+  flex: 1;
+  padding: 2rem;
+}
+@media (max-width: 600px) {
+  .main {
+    padding: 1rem;
+  }
+}

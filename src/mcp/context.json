@@ -1,0 +1,9 @@
+{
+  "theme": "light",
+  "breakpoints": {
+    "mobile": 600,
+    "tablet": 900,
+    "desktop": 1200
+  },
+  "defaultComponents": ["Layout", "Button"]
+}
